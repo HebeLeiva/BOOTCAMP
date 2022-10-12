@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Clock = () => {
-    const [adtosPersona, setDatosPersona] = useState({
+    const [datosPersona, setDatosPersona] = useState({
         fecha: new Date(),
         edad: 0,
         nombre: 'Martín',
